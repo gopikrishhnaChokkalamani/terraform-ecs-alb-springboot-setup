@@ -1,1 +1,23 @@
-./.idea
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+crash.log
+
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+.settings/
+.classpath
+.project
+
+.idea
+*.iml
+
+/shelf/
+/workspace.xml
