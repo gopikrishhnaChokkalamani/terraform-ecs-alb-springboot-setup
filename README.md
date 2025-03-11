@@ -1,1 +1,1 @@
-<ALB DNS>/swagger-ui/index.html
+ALB/swagger-ui/index.html
