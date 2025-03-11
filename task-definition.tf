@@ -4,7 +4,7 @@ resource "aws_ecs_task_definition" "product-app-fargate-task" {
   requires_compatibilities = ["FARGATE"]
   cpu                      = "1024"  # CPU units (512 is 0.5 vCPU)
   memory                   = "3072" # Memory (3GB)
-  execution_role_arn       = "arn:aws:iam::433240000570:role/ecsTaskExecutionRole"
+  execution_role_arn       = "arn of ecsTaskExecutionRole"
   enable_fault_injection   = "false"
 
   runtime_platform {
